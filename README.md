@@ -110,9 +110,9 @@ Body:
 ```
 GET /users
 ```
-![Screenshots](Screenshot%202026-03-16%20125056.png)
-Response:
 
+Response:
+![Screenshots](Screenshot%202026-03-16%20125056.png)
 
 ```
 [
