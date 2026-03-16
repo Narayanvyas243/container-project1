@@ -76,6 +76,7 @@ containerized-app/
 ```
 GET /health
 ```
+![Screenshots](Screenshot%202026-03-16%20121445.png)
 
 Response:
 
@@ -92,7 +93,7 @@ Response:
 ```
 POST /users
 ```
-
+![Screenshots](Screenshot%202026-03-16%20125034.png)
 Body:
 
 ```
@@ -111,7 +112,7 @@ GET /users
 ```
 
 Response:
-
+![Screenshots](Screenshot%202026-03-16%20125056.png)
 ```
 [
   {
