@@ -1,6 +1,6 @@
 # Containerized Web Application with PostgreSQL using Docker Compose and Macvlan/Ipvlan
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the containerization and deployment of a web application using Docker.
 It includes a Node.js + Express backend connected to a PostgreSQL database and orchestrated using Docker Compose.
@@ -9,7 +9,7 @@ The project showcases key DevOps concepts such as containerization, multi-stage 
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 * **Backend:** Node.js + Express
 * **Database:** PostgreSQL
@@ -20,7 +20,7 @@ The project showcases key DevOps concepts such as containerization, multi-stage 
 
 ---
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 Client (Browser / Postman)
 ↓
@@ -33,7 +33,7 @@ Both containers are connected through a custom Docker network with static IP add
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 containerized-app/
@@ -55,7 +55,7 @@ containerized-app/
 
 ---
 
-## ⚙️ Features
+##  Features
 
 * REST API with Express
 * PostgreSQL database integration
@@ -69,9 +69,9 @@ containerized-app/
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
-### 🔹 Health Check
+###  Health Check
 
 ```
 GET /health
@@ -88,7 +88,7 @@ Response:
 
 ---
 
-### 🔹 Insert User
+###  Insert User
 
 ```
 POST /users
@@ -105,7 +105,7 @@ Body:
 
 ---
 
-### 🔹 Fetch Users
+###  Fetch Users
 
 ```
 GET /users
@@ -126,7 +126,7 @@ Response:
 
 ---
 
-## 🐳 Docker Implementation
+##  Docker Implementation
 
 ### Backend Container
 
@@ -143,7 +143,7 @@ Response:
 
 ---
 
-## 🌐 Networking
+##  Networking
 
 This project uses **Macvlan / Ipvlan networking** to assign static IP addresses to containers.
 
@@ -154,11 +154,11 @@ Example configuration:
 | Backend    | 172.20.224.51 |
 | PostgreSQL | 172.20.224.50 |
 
-📌 Note: Macvlan introduces host isolation, meaning the host machine cannot directly access containers via localhost. Therefore, API testing was performed from inside the container.
+ Note: Macvlan introduces host isolation, meaning the host machine cannot directly access containers via localhost. Therefore, API testing was performed from inside the container.
 
 ---
 
-## 💾 Persistent Storage
+##  Persistent Storage
 
 Docker named volumes ensure PostgreSQL data persists even after container restarts.
 
@@ -170,9 +170,9 @@ pgdata
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
-### 1️⃣ Clone Repository
+### 1️ Clone Repository
 
 ```
 git clone https://github.com/narayanvyas243/container-project1.git
@@ -181,7 +181,7 @@ cd container-project1
 
 ---
 
-### 2️⃣ Build and Run Containers
+### 2️ Build and Run Containers
 
 ```
 docker compose up --build
@@ -190,7 +190,7 @@ docker compose up --build
 
 ---
 
-### 3️⃣ Stop Containers
+### 3️ Stop Containers
 
 ```
 docker compose down
@@ -199,7 +199,7 @@ docker compose down
 
 ---
 
-## 📊 Docker Commands Used
+##  Docker Commands Used
 
 ```
 docker compose up --build
@@ -226,7 +226,7 @@ docker exec backend_container
 
 ---
 
-## 📷 Project Demonstration
+##  Project Demonstration
 
 Screenshots included:
 
@@ -237,7 +237,7 @@ Screenshots included:
 
 ---
 
-## 📚 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 * Containerization
 * Docker multi-stage builds
