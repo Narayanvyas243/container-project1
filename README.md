@@ -174,8 +174,8 @@ pgdata
 ### 1️⃣ Clone Repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/containerized-app.git
-cd containerized-app
+git clone https://github.com/narayanvyas243/container-project1.git
+cd container-project1
 ```
 
 ---
@@ -185,6 +185,7 @@ cd containerized-app
 ```
 docker compose up --build
 ```
+![Screenshots](Screenshot%202026-03-16%20115524.png)
 
 ---
 
@@ -193,6 +194,7 @@ docker compose up --build
 ```
 docker compose down
 ```
+![Screenshots](Screenshot%202026-03-16%20122108.png)
 
 ---
 
@@ -200,11 +202,26 @@ docker compose down
 
 ```
 docker compose up --build
+```
+![Screenshots](Screenshot%202026-03-16%20115524.png)
+
+```
 docker compose down
+```
+![Screenshots](Screenshot%202026-03-16%20122108.png)
+```
 docker ps
+```
+![Screenshots](Screenshot%202026-03-16%20121739.png)
+```
 docker network inspect mymacvlan
+```
+![Screenshots](Screenshot%202026-03-16%20121803.png)
+![Screenshots](Screenshot%202026-03-16%20122015.png)
+```
 docker exec backend_container
 ```
+![Screenshots](Screenshot%202026-03-16%20121445.png)
 
 ---
 
