@@ -1,6 +1,6 @@
 FROM postgres:16-alpine
 
-# Set environment variables (will override via compose later)
+# Set environment variables 
 ENV POSTGRES_DB=mydb
 ENV POSTGRES_USER=myuser
 ENV POSTGRES_PASSWORD=mypassword
