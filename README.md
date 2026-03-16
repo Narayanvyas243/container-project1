@@ -112,7 +112,9 @@ GET /users
 ```
 
 Response:
+
 ![Screenshots](Screenshot%202026-03-16%20125056.png)
+
 ```
 [
   {
@@ -247,7 +249,4 @@ Screenshots included:
 
 ---
 
-## 👨‍💻 Author
 
-**Narayan Vyas**
-B.Tech Computer Science Engineering
